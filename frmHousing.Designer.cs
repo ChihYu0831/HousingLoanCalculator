@@ -283,6 +283,7 @@
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(162, 29);
             this.lbl1.TabIndex = 23;
+            this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -292,6 +293,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(162, 29);
             this.label1.TabIndex = 24;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -301,6 +303,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(162, 29);
             this.label2.TabIndex = 25;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -310,6 +313,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(162, 28);
             this.label3.TabIndex = 26;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
@@ -319,6 +323,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(162, 29);
             this.label4.TabIndex = 27;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -328,6 +333,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(162, 29);
             this.label5.TabIndex = 28;
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmHousing
             // 
