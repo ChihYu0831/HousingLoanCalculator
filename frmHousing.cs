@@ -109,11 +109,11 @@ namespace 個人房貸試算器
             }
 
             lbl1.Text = loanAmount.ToString("N2");
-            label1.Text = monthlyPayment.ToString("N2");
-            label3.Text = firstInterest.ToString("N2");
-            label2.Text = firstPrincipal.ToString("N2");
-            label4.Text = totalInterest.ToString("N2");
-            label5.Text = totalPayment.ToString("N2");
+            lbl2.Text = monthlyPayment.ToString("N2");
+            lbl3.Text = firstInterest.ToString("N2");
+            lbl4.Text = firstPrincipal.ToString("N2");
+            lbl5.Text = totalInterest.ToString("N2");
+            lbl6.Text = totalPayment.ToString("N2");
         }
     }
 }
