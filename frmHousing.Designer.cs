@@ -53,6 +53,7 @@
             this.lblResult3 = new System.Windows.Forms.Label();
             this.lblResult2 = new System.Windows.Forms.Label();
             this.lblResult5 = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
             this.grpInput.SuspendLayout();
             this.grpOutput.SuspendLayout();
             this.SuspendLayout();
@@ -71,7 +72,7 @@
             this.grpInput.Controls.Add(this.lblAnnualInterestRate);
             this.grpInput.Controls.Add(this.lblLoanTerm);
             this.grpInput.Controls.Add(this.lblTotalHousePrice);
-            this.grpInput.Location = new System.Drawing.Point(12, 12);
+            this.grpInput.Location = new System.Drawing.Point(12, 60);
             this.grpInput.Name = "grpInput";
             this.grpInput.Size = new System.Drawing.Size(476, 209);
             this.grpInput.TabIndex = 0;
@@ -83,7 +84,7 @@
             this.txtBox5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtBox5.Location = new System.Drawing.Point(161, 155);
             this.txtBox5.Name = "txtBox5";
-            this.txtBox5.Size = new System.Drawing.Size(162, 34);
+            this.txtBox5.Size = new System.Drawing.Size(162, 29);
             this.txtBox5.TabIndex = 10;
             this.txtBox5.Text = "0";
             this.txtBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -93,7 +94,7 @@
             this.txtBox4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtBox4.Location = new System.Drawing.Point(161, 124);
             this.txtBox4.Name = "txtBox4";
-            this.txtBox4.Size = new System.Drawing.Size(162, 34);
+            this.txtBox4.Size = new System.Drawing.Size(162, 29);
             this.txtBox4.TabIndex = 9;
             this.txtBox4.Text = "30";
             this.txtBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -103,7 +104,7 @@
             this.txtBox3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtBox3.Location = new System.Drawing.Point(161, 93);
             this.txtBox3.Name = "txtBox3";
-            this.txtBox3.Size = new System.Drawing.Size(162, 34);
+            this.txtBox3.Size = new System.Drawing.Size(162, 29);
             this.txtBox3.TabIndex = 8;
             this.txtBox3.Text = "2.15";
             this.txtBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -113,7 +114,7 @@
             this.txtBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtBox2.Location = new System.Drawing.Point(161, 62);
             this.txtBox2.Name = "txtBox2";
-            this.txtBox2.Size = new System.Drawing.Size(162, 34);
+            this.txtBox2.Size = new System.Drawing.Size(162, 29);
             this.txtBox2.TabIndex = 7;
             this.txtBox2.Text = "20";
             this.txtBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -123,7 +124,7 @@
             this.txtBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtBox1.Location = new System.Drawing.Point(161, 31);
             this.txtBox1.Name = "txtBox1";
-            this.txtBox1.Size = new System.Drawing.Size(162, 34);
+            this.txtBox1.Size = new System.Drawing.Size(162, 29);
             this.txtBox1.TabIndex = 6;
             this.txtBox1.Text = "12000000";
             this.txtBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -145,7 +146,7 @@
             this.lblGracePeriod.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblGracePeriod.Location = new System.Drawing.Point(41, 158);
             this.lblGracePeriod.Name = "lblGracePeriod";
-            this.lblGracePeriod.Size = new System.Drawing.Size(106, 25);
+            this.lblGracePeriod.Size = new System.Drawing.Size(86, 21);
             this.lblGracePeriod.TabIndex = 4;
             this.lblGracePeriod.Text = "寬限期(年)";
             // 
@@ -155,7 +156,7 @@
             this.lblDownPayment.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblDownPayment.Location = new System.Drawing.Point(41, 65);
             this.lblDownPayment.Name = "lblDownPayment";
-            this.lblDownPayment.Size = new System.Drawing.Size(144, 25);
+            this.lblDownPayment.Size = new System.Drawing.Size(116, 21);
             this.lblDownPayment.TabIndex = 3;
             this.lblDownPayment.Text = "自備款比例(%)";
             // 
@@ -165,7 +166,7 @@
             this.lblAnnualInterestRate.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblAnnualInterestRate.Location = new System.Drawing.Point(41, 96);
             this.lblAnnualInterestRate.Name = "lblAnnualInterestRate";
-            this.lblAnnualInterestRate.Size = new System.Drawing.Size(124, 25);
+            this.lblAnnualInterestRate.Size = new System.Drawing.Size(100, 21);
             this.lblAnnualInterestRate.TabIndex = 2;
             this.lblAnnualInterestRate.Text = "貸款利率(%)";
             // 
@@ -175,7 +176,7 @@
             this.lblLoanTerm.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblLoanTerm.Location = new System.Drawing.Point(41, 127);
             this.lblLoanTerm.Name = "lblLoanTerm";
-            this.lblLoanTerm.Size = new System.Drawing.Size(126, 25);
+            this.lblLoanTerm.Size = new System.Drawing.Size(102, 21);
             this.lblLoanTerm.TabIndex = 1;
             this.lblLoanTerm.Text = "貸款年限(年)";
             // 
@@ -187,7 +188,7 @@
             this.lblTotalHousePrice.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblTotalHousePrice.Location = new System.Drawing.Point(41, 34);
             this.lblTotalHousePrice.Name = "lblTotalHousePrice";
-            this.lblTotalHousePrice.Size = new System.Drawing.Size(126, 25);
+            this.lblTotalHousePrice.Size = new System.Drawing.Size(102, 21);
             this.lblTotalHousePrice.TabIndex = 0;
             this.lblTotalHousePrice.Text = "房屋總價(元)";
             // 
@@ -206,7 +207,7 @@
             this.grpOutput.Controls.Add(this.lblResult3);
             this.grpOutput.Controls.Add(this.lblResult2);
             this.grpOutput.Controls.Add(this.lblResult5);
-            this.grpOutput.Location = new System.Drawing.Point(12, 241);
+            this.grpOutput.Location = new System.Drawing.Point(12, 289);
             this.grpOutput.Name = "grpOutput";
             this.grpOutput.Size = new System.Drawing.Size(476, 254);
             this.grpOutput.TabIndex = 1;
@@ -279,7 +280,7 @@
             this.lblResult6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblResult6.Location = new System.Drawing.Point(41, 201);
             this.lblResult6.Name = "lblResult6";
-            this.lblResult6.Size = new System.Drawing.Size(146, 25);
+            this.lblResult6.Size = new System.Drawing.Size(118, 21);
             this.lblResult6.TabIndex = 21;
             this.lblResult6.Text = "總還款金額(元)";
             // 
@@ -291,7 +292,7 @@
             this.lblResult1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblResult1.Location = new System.Drawing.Point(41, 47);
             this.lblResult1.Name = "lblResult1";
-            this.lblResult1.Size = new System.Drawing.Size(146, 25);
+            this.lblResult1.Size = new System.Drawing.Size(118, 21);
             this.lblResult1.TabIndex = 11;
             this.lblResult1.Text = "貸款總金額(元)";
             // 
@@ -301,7 +302,7 @@
             this.lblResult4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblResult4.Location = new System.Drawing.Point(41, 139);
             this.lblResult4.Name = "lblResult4";
-            this.lblResult4.Size = new System.Drawing.Size(126, 25);
+            this.lblResult4.Size = new System.Drawing.Size(102, 21);
             this.lblResult4.TabIndex = 12;
             this.lblResult4.Text = "首期本金(元)";
             // 
@@ -311,7 +312,7 @@
             this.lblResult3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblResult3.Location = new System.Drawing.Point(41, 109);
             this.lblResult3.Name = "lblResult3";
-            this.lblResult3.Size = new System.Drawing.Size(126, 25);
+            this.lblResult3.Size = new System.Drawing.Size(102, 21);
             this.lblResult3.TabIndex = 13;
             this.lblResult3.Text = "首期利息(元)";
             // 
@@ -321,7 +322,7 @@
             this.lblResult2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblResult2.Location = new System.Drawing.Point(41, 78);
             this.lblResult2.Name = "lblResult2";
-            this.lblResult2.Size = new System.Drawing.Size(201, 25);
+            this.lblResult2.Size = new System.Drawing.Size(162, 21);
             this.lblResult2.TabIndex = 14;
             this.lblResult2.Text = "每月應繳金額(本+息)";
             // 
@@ -331,15 +332,28 @@
             this.lblResult5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblResult5.Location = new System.Drawing.Point(41, 170);
             this.lblResult5.Name = "lblResult5";
-            this.lblResult5.Size = new System.Drawing.Size(146, 25);
+            this.lblResult5.Size = new System.Drawing.Size(118, 21);
             this.lblResult5.TabIndex = 15;
             this.lblResult5.Text = "總利息支出(元)";
             // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.BackColor = System.Drawing.Color.Khaki;
+            this.lblTitle.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblTitle.Location = new System.Drawing.Point(168, 22);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(159, 26);
+            this.lblTitle.TabIndex = 11;
+            this.lblTitle.Text = "個人房貸試算器";
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmHousing
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(507, 518);
+            this.ClientSize = new System.Drawing.Size(507, 558);
+            this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.grpOutput);
             this.Controls.Add(this.grpInput);
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -352,6 +366,7 @@
             this.grpOutput.ResumeLayout(false);
             this.grpOutput.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -382,6 +397,7 @@
         private System.Windows.Forms.Label lbl3;
         private System.Windows.Forms.Label lbl4;
         private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Label lblTitle;
     }
 }
 
