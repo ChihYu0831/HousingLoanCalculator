@@ -74,7 +74,7 @@
             this.grpInput.Controls.Add(this.lblTotalHousePrice);
             this.grpInput.Location = new System.Drawing.Point(12, 60);
             this.grpInput.Name = "grpInput";
-            this.grpInput.Size = new System.Drawing.Size(476, 209);
+            this.grpInput.Size = new System.Drawing.Size(493, 209);
             this.grpInput.TabIndex = 0;
             this.grpInput.TabStop = false;
             this.grpInput.Text = "輸入";
@@ -82,7 +82,7 @@
             // txtBox5
             // 
             this.txtBox5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtBox5.Location = new System.Drawing.Point(161, 155);
+            this.txtBox5.Location = new System.Drawing.Point(179, 155);
             this.txtBox5.Name = "txtBox5";
             this.txtBox5.Size = new System.Drawing.Size(162, 29);
             this.txtBox5.TabIndex = 10;
@@ -92,7 +92,7 @@
             // txtBox4
             // 
             this.txtBox4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtBox4.Location = new System.Drawing.Point(161, 124);
+            this.txtBox4.Location = new System.Drawing.Point(179, 124);
             this.txtBox4.Name = "txtBox4";
             this.txtBox4.Size = new System.Drawing.Size(162, 29);
             this.txtBox4.TabIndex = 9;
@@ -102,7 +102,7 @@
             // txtBox3
             // 
             this.txtBox3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtBox3.Location = new System.Drawing.Point(161, 93);
+            this.txtBox3.Location = new System.Drawing.Point(179, 93);
             this.txtBox3.Name = "txtBox3";
             this.txtBox3.Size = new System.Drawing.Size(162, 29);
             this.txtBox3.TabIndex = 8;
@@ -112,7 +112,7 @@
             // txtBox2
             // 
             this.txtBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtBox2.Location = new System.Drawing.Point(161, 62);
+            this.txtBox2.Location = new System.Drawing.Point(179, 62);
             this.txtBox2.Name = "txtBox2";
             this.txtBox2.Size = new System.Drawing.Size(162, 29);
             this.txtBox2.TabIndex = 7;
@@ -122,7 +122,7 @@
             // txtBox1
             // 
             this.txtBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtBox1.Location = new System.Drawing.Point(161, 31);
+            this.txtBox1.Location = new System.Drawing.Point(179, 31);
             this.txtBox1.Name = "txtBox1";
             this.txtBox1.Size = new System.Drawing.Size(162, 29);
             this.txtBox1.TabIndex = 6;
@@ -132,7 +132,7 @@
             // btnCalculate
             // 
             this.btnCalculate.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnCalculate.Location = new System.Drawing.Point(354, 58);
+            this.btnCalculate.Location = new System.Drawing.Point(372, 58);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(86, 85);
             this.btnCalculate.TabIndex = 5;
@@ -146,9 +146,9 @@
             this.lblGracePeriod.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblGracePeriod.Location = new System.Drawing.Point(41, 158);
             this.lblGracePeriod.Name = "lblGracePeriod";
-            this.lblGracePeriod.Size = new System.Drawing.Size(86, 21);
+            this.lblGracePeriod.Size = new System.Drawing.Size(134, 21);
             this.lblGracePeriod.TabIndex = 4;
-            this.lblGracePeriod.Text = "寬限期(年)";
+            this.lblGracePeriod.Text = "寬限期(年，選填)";
             // 
             // lblDownPayment
             // 
@@ -209,7 +209,7 @@
             this.grpOutput.Controls.Add(this.lblResult5);
             this.grpOutput.Location = new System.Drawing.Point(12, 289);
             this.grpOutput.Name = "grpOutput";
-            this.grpOutput.Size = new System.Drawing.Size(476, 254);
+            this.grpOutput.Size = new System.Drawing.Size(493, 254);
             this.grpOutput.TabIndex = 1;
             this.grpOutput.TabStop = false;
             this.grpOutput.Text = "計算結果";
@@ -352,7 +352,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(507, 558);
+            this.ClientSize = new System.Drawing.Size(518, 558);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.grpOutput);
             this.Controls.Add(this.grpInput);
