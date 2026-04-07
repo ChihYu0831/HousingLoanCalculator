@@ -220,7 +220,7 @@
             this.lbl6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl6.Location = new System.Drawing.Point(238, 200);
             this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(162, 29);
+            this.lbl6.Size = new System.Drawing.Size(220, 29);
             this.lbl6.TabIndex = 28;
             this.lbl6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -230,7 +230,7 @@
             this.lbl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl5.Location = new System.Drawing.Point(238, 169);
             this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(162, 29);
+            this.lbl5.Size = new System.Drawing.Size(220, 29);
             this.lbl5.TabIndex = 27;
             this.lbl5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -240,7 +240,7 @@
             this.lbl3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl3.Location = new System.Drawing.Point(238, 108);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(162, 28);
+            this.lbl3.Size = new System.Drawing.Size(220, 28);
             this.lbl3.TabIndex = 26;
             this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -250,7 +250,7 @@
             this.lbl4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl4.Location = new System.Drawing.Point(238, 138);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(162, 29);
+            this.lbl4.Size = new System.Drawing.Size(220, 29);
             this.lbl4.TabIndex = 25;
             this.lbl4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -260,7 +260,7 @@
             this.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl2.Location = new System.Drawing.Point(238, 77);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(162, 29);
+            this.lbl2.Size = new System.Drawing.Size(220, 29);
             this.lbl2.TabIndex = 24;
             this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -270,7 +270,7 @@
             this.lbl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl1.Location = new System.Drawing.Point(238, 46);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(162, 29);
+            this.lbl1.Size = new System.Drawing.Size(220, 29);
             this.lbl1.TabIndex = 23;
             this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -280,9 +280,9 @@
             this.lblResult6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblResult6.Location = new System.Drawing.Point(41, 201);
             this.lblResult6.Name = "lblResult6";
-            this.lblResult6.Size = new System.Drawing.Size(118, 21);
+            this.lblResult6.Size = new System.Drawing.Size(90, 21);
             this.lblResult6.TabIndex = 21;
-            this.lblResult6.Text = "總還款金額(元)";
+            this.lblResult6.Text = "總還款金額";
             // 
             // lblResult1
             // 
@@ -292,9 +292,9 @@
             this.lblResult1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblResult1.Location = new System.Drawing.Point(41, 47);
             this.lblResult1.Name = "lblResult1";
-            this.lblResult1.Size = new System.Drawing.Size(118, 21);
+            this.lblResult1.Size = new System.Drawing.Size(90, 21);
             this.lblResult1.TabIndex = 11;
-            this.lblResult1.Text = "貸款總金額(元)";
+            this.lblResult1.Text = "貸款總金額";
             // 
             // lblResult4
             // 
@@ -302,9 +302,9 @@
             this.lblResult4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblResult4.Location = new System.Drawing.Point(41, 139);
             this.lblResult4.Name = "lblResult4";
-            this.lblResult4.Size = new System.Drawing.Size(102, 21);
+            this.lblResult4.Size = new System.Drawing.Size(74, 21);
             this.lblResult4.TabIndex = 12;
-            this.lblResult4.Text = "首期本金(元)";
+            this.lblResult4.Text = "首期本金";
             // 
             // lblResult3
             // 
@@ -312,9 +312,9 @@
             this.lblResult3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblResult3.Location = new System.Drawing.Point(41, 109);
             this.lblResult3.Name = "lblResult3";
-            this.lblResult3.Size = new System.Drawing.Size(102, 21);
+            this.lblResult3.Size = new System.Drawing.Size(74, 21);
             this.lblResult3.TabIndex = 13;
-            this.lblResult3.Text = "首期利息(元)";
+            this.lblResult3.Text = "首期利息";
             // 
             // lblResult2
             // 
@@ -332,9 +332,9 @@
             this.lblResult5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblResult5.Location = new System.Drawing.Point(41, 170);
             this.lblResult5.Name = "lblResult5";
-            this.lblResult5.Size = new System.Drawing.Size(118, 21);
+            this.lblResult5.Size = new System.Drawing.Size(90, 21);
             this.lblResult5.TabIndex = 15;
-            this.lblResult5.Text = "總利息支出(元)";
+            this.lblResult5.Text = "總利息支出";
             // 
             // lblTitle
             // 
